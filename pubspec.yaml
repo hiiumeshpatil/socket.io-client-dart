@@ -10,7 +10,8 @@ environment:
 
 dependencies:
   logging: '^1.0.1'
-  socket_io_common: '^2.0.3'
+  socket_io_common:
+        git: https://github.com/hiiumeshpatil/socket_io_common.git
   js: '^0.6.3'
 
 dev_dependencies:
